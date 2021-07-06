@@ -1,4 +1,8 @@
-# Time Breakdown of Project
+# App made for mobile view Dimensions
+- iPhone X : 375px x 812px
+- mobile compatible deployed : todo-takehome-test.netlify.app
+
+## Time Breakdown of Project
 
 - Brainstorming : 30 minutes
 - Setting up project and folder structures : 1 hour
@@ -9,6 +13,7 @@
 
 
 ### -- Tools used --
+
 - React
 - Redux(global state environment)
 - React-icons(icons)
