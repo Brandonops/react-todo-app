@@ -57,7 +57,7 @@ export default function AddTodoForm() {
                     }));
                 }}
                     type="text" />
-                <select className="input-form" onChange={(e) => {
+                <select className="input-form select-input" onChange={(e) => {
                     return setNewTodo((prevState) => ({
                         newTodo: {
                             ...prevState.newTodo,
@@ -78,7 +78,7 @@ export default function AddTodoForm() {
                         User 3
                     </option>
                 </select>
-                <select className="input-form" onChange={(e) => {
+                <select className="input-form select-input" onChange={(e) => {
                     if (e.target.value === "false") {
                         return setNewTodo((prevState) => ({
                             newTodo: {

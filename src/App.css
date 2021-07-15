@@ -27,7 +27,9 @@
   color: white;
   border: 0px;
   border-radius:10px;
-  width: 500px;
+  width: 40%;
+  margin-bottom: 10px;
+
 }
 .search-icon{
   color: white;
@@ -35,8 +37,9 @@
   overflow: hidden;
 }
 .search-container{
-  margin:10px 5px 10px 5px;
-  padding:5px;
+  margin-right: 0;
+  margin-left: 4%;
+  
   display: flex;
   justify-content: center;
   height: 60px;
@@ -131,7 +134,7 @@
 
 .card-container{
   /* margin:5px; */
-  margin-top: 20px;
+  /* margin-top: 20px; */
   height: 60vh;
   overflow: auto;
   text-align:justify;
@@ -213,7 +216,6 @@ ul li a{
 }
 
 
-
 .input-form{
   background-color: #292639;
   width: 40%;
@@ -225,6 +227,10 @@ ul li a{
   font-size: 17px;
   color: white;
 }
+.select-input{
+  width: 42%;
+}
+
 
 
 .todo-form{
@@ -370,36 +376,55 @@ background-color: #070417;
   }
   
 
+  .search-container-border{
+    margin: 10px 38% 0px 38%;
+  }
 
-.search-container-border{
- margin: 10px 40% 0px 40%;
-}
 }
 
 
 
 @media screen and (max-width: 1100px) {
- .search-icon{
-   position: relative;
-   right: 4%;
-   overflow: hidden;
- }
+  .search-icon{
+    position: absolute;
+    right: 18%;
+    top: 185px;
+    font-size: 30px;
+    overflow: hidden;
+  }
+  .search-bar{
+    width: 70%;
+  }
+  .search-container-border{
+    margin: 10px 38% 0px 38%;
+  }
 
- .search-container-border{
-  background-color: #3B3753;
-  border-radius: 5px;
-  height: 2px;
-  margin: 10px 35% 0px 35%;
-}
+  .search-container{
+    margin: 20px 25px 20px 15px;
+    padding: 0;
+  }
 
 }
 
 
 @media screen and (max-width: 900px) {
   .search-icon{
-    position: relative;
-    right: 6%;
+    position: absolute;
+    right: 18%;
+    top: 185px;
+    font-size: 30px;
     overflow: hidden;
+  }
+  .search-bar{
+    width: 70%;
+  }
+  .search-container-border{
+    margin: 0px 38% 10px 38%;
+  }
+
+  .search-container{
+    margin: 20px 25px 0px 15px;
+    padding: 0;
   }
 
  }
@@ -409,30 +434,61 @@ background-color: #070417;
     position: absolute;
     left: 80%;
   }
+  .search-container-border{
+    margin: 0px 38% 10px 38%;
+  }
+
+  .search-container{
+    margin: 20px 25px 0px 15px;
+    padding: 0;
+  }
 }
  
   
 @media screen and (max-width: 700px) {
-  .add-todo-button{
-    color: black;
-    background-color: white;
-    font-size: 20px;
-    height: 70px;
-    width: 70px;
-    /* position: absolute; */
-    z-index: 5;
-    /* left : 78%;
-    bottom: 30px; */
-    border-radius: 50px;
+  .search-icon{
+    position: absolute;
+    right: 10%;
+    top: 185px;
+    font-size: 30px;
+    overflow: hidden;
   }
+  .search-bar{
+    width: 100%;
+  }
+  .search-container-border{
+    margin: 0px 38% 10px 38%;
+  }
+
+  .search-container{
+    margin: 20px 25px 0px 15px;
+    padding: 0;
+  }
+  .three-dots-edit{
+    color: white;
+    font-size: 40px;
+    margin-right: 20px;
+    margin-left: 10px;
+  }
+
+  .checked-symbol-container{
+    margin-right: 20px ;
+  }
+  
+  .todo-title-user{
+    margin-right: 10px;
+  }
+
+ }
 
   .input-form{
     width: 80%;
-
+  }
+  .select-input{
+    width: 83%;
+    padding: 10px;
   }
 
-
- }
  
  
 
@@ -440,17 +496,22 @@ background-color: #070417;
 
 @media screen and (max-width: 600px) {
   .search-icon{
-    position: relative;
-    right: 7%;
+    position: absolute;
+    right: 10%;
+    top: 185px;
     font-size: 30px;
     overflow: hidden;
   }
+  .search-bar{
+    width: 100%;
+  }
   .search-container-border{
-    background-color: #3B3753;
-    border-radius: 5px;
-    height: 2px;
-    margin: 10px 40% 0px 40%;
-  
+    margin: 0px 38% 10px 38%;
+  }
+
+  .search-container{
+    margin: 20px 25px 0px 15px;
+    padding: 0;
   }
   .three-dots-edit{
     color: white;
@@ -477,11 +538,22 @@ background-color: #070417;
 
  @media screen and (max-width: 500px) {
   .search-icon{
-    position: relative;
-    right: 9%;
-    top: 18%;
-    font-size: 40px;
+    position: absolute;
+    right: 10%;
+    top: 185px;
+    font-size: 30px;
     overflow: hidden;
+  }
+  .search-bar{
+    width: 100%;
+  }
+  .search-container-border{
+    margin: 0px 38% 10px 38%;
+  }
+
+  .search-container{
+    margin: 20px 25px 0px 15px;
+    padding: 0;
   }
   .three-dots-edit{
     color: white;
@@ -503,13 +575,22 @@ background-color: #070417;
  
  @media screen and (max-width: 400px) {
   .search-icon{
-    position: relative;
+    position: absolute;
     right: 10%;
-    top: 5%;
-    font-size: 100px;
-    width: 50px;
-    height: 50px;
+    top: 185px;
+    font-size: 30px;
     overflow: hidden;
+  }
+  .search-bar{
+    width: 100%;
+  }
+  .search-container-border{
+    margin: 0px 38% 10px 38%;
+  }
+
+  .search-container{
+    margin: 20px 25px 0px 15px;
+    padding: 0;
   }
   .add-todo-button{
     position: absolute;
@@ -521,13 +602,22 @@ background-color: #070417;
 
  @media screen and (max-width: 350px) {
   .search-icon{
-    position: relative;
+    position: absolute;
     right: 10%;
-    top: 5%;
-    font-size: 100px;
-    width: 50px;
-    height: 50px;
+    top: 185px;
+    font-size: 30px;
     overflow: hidden;
+  }
+  .search-bar{
+    width: 100%;
+  }
+  .search-container-border{
+    margin: 0px 38% 10px 38%;
+  }
+
+  .search-container{
+    margin: 20px 25px 0px 15px;
+    padding: 0;
   }
   .add-todo-button{
     position: absolute;
