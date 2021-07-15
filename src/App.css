@@ -197,7 +197,7 @@ ul li a{
 .add-todo-button{
   color: black;
   background-color: white;
-  font-size: 50px;
+  font-size: 70px;
   position: absolute;
   z-index: 5;
   left : 90%;
@@ -409,11 +409,13 @@ background-color: #070417;
   .add-todo-button{
     color: black;
     background-color: white;
-    font-size: 70px;
+    font-size: 20px;
+    height: 70px;
+    width: 70px;
     position: absolute;
     z-index: 5;
     left : 78%;
-    bottom: 35px;
+    bottom: 30px;
     border-radius: 50px;
   }
 
