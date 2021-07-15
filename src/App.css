@@ -10,6 +10,7 @@
 
 .header-logo{
   color: white;
+  margin-top: 30px;
 }
 
 .logo-container{
@@ -201,7 +202,7 @@ ul li a{
   position: absolute;
   z-index: 5;
   left : 90%;
-  bottom: 40px;
+  bottom: 20px;
   border-radius: 50px;
 }
 
@@ -363,7 +364,7 @@ background-color: #070417;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 1% 5% 1% 5%;
+    margin: 3% 15% 3% 15%;
     border-radius: 10px;
     color: white;
   }
@@ -400,9 +401,15 @@ background-color: #070417;
     right: 6%;
     overflow: hidden;
   }
+
  }
  
-
+@media screen and (max-width: 800px) {
+  .add-todo-button{
+    position: absolute;
+    left: 80%;
+  }
+}
  
   
 @media screen and (max-width: 700px) {
@@ -412,13 +419,17 @@ background-color: #070417;
     font-size: 20px;
     height: 70px;
     width: 70px;
-    position: absolute;
+    /* position: absolute; */
     z-index: 5;
-    left : 78%;
-    bottom: 30px;
+    /* left : 78%;
+    bottom: 30px; */
     border-radius: 50px;
   }
 
+  .input-form{
+    width: 80%;
+
+  }
 
 
  }
@@ -456,7 +467,7 @@ background-color: #070417;
     height: 100px;
   }
   .todo-title-user{
-    margin: 5px 0 tpx 0;
+    margin: 5px 0 5px 0;
   }
 
 
@@ -475,13 +486,17 @@ background-color: #070417;
   .three-dots-edit{
     color: white;
     font-size: 40px;
-    margin-right: 10px;
+    margin-right: 20px;
+    margin-left: 10px;
   }
 
   .checked-symbol-container{
     margin-right: 20px ;
   }
   
+  .todo-title-user{
+    margin-right: 10px;
+  }
 
  }
  
@@ -496,16 +511,61 @@ background-color: #070417;
     height: 50px;
     overflow: hidden;
   }
+  .add-todo-button{
+    position: absolute;
+    left: 78%;
+  }
 
  }
 
- @media screen and (min-height: 825px) {
+
+ @media screen and (max-width: 350px) {
+  .search-icon{
+    position: relative;
+    right: 10%;
+    top: 5%;
+    font-size: 100px;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+  }
   .add-todo-button{
     position: absolute;
-    bottom: 15px;
+    left: 70%;
+  }
+
+ }
+
+
+ @media screen and (min-height: 860px) {
+  .add-todo-button{
+    position: absolute;
+    bottom: 30px
   }
 
   .card-container{
-    height: 60vh
+    height: 62vh
+  }
+ }
+
+
+ @media screen and (min-height: 900px) {
+  .add-todo-button{
+    position: absolute;
+    bottom: 30px
+  }
+
+  .card-container{
+    height: 65vh
+  }
+ }
+ @media screen and (min-height: 1000px) {
+  .add-todo-button{
+    position: absolute;
+    bottom: 35px
+  }
+
+  .card-container{
+    height: 67vh
   }
  }
