@@ -6,9 +6,11 @@ export default function TodoCard(props) {
     return (
         <div className="todo-card">
             <div className="grouped-div">
-                {props.todo.completed === true ? <IoIosCheckmark className="checked-symbol-filled"></IoIosCheckmark> : <div className="checked-symbol"></div>}
+                <div className="checked-symbol-container">
+                    {props.todo.completed === true ? <IoIosCheckmark className="checked-symbol-filled"></IoIosCheckmark> : <div className="checked-symbol"></div>}
+                </div>
                 <div className="todo-title-user">
-                    <p>{props.todo.title}</p>
+                    <p className="todo-title">{props.todo.title}</p>
                     <p className="user-name">User: {props.todo.userId}</p>
                 </div>
             </div>

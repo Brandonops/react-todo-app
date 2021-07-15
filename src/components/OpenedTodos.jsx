@@ -127,7 +127,8 @@ export default function OpenedTodos(props) {
                             }
                                 value={editTodo.completed}
                             >
-                                <option value="" selected disabled hidden>Status</option>
+                                <option value="" selected disabled hidden>Status
+                                </option>
                                 <option value="false">
                                     Open
                                 </option>
