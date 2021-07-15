@@ -502,10 +502,10 @@ background-color: #070417;
  @media screen and (min-height: 825px) {
   .add-todo-button{
     position: absolute;
-    bottom: 20px;
+    bottom: 100px;
   }
 
   .card-container{
-    height: 64vh
+    height: 60vh
   }
  }
