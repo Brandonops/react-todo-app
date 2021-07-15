@@ -61,7 +61,7 @@
   font-size: 30px;
   position: relative;
   right: 3%;
-  top: 15px;
+  top: 8px;
   overflow: hidden;
 }
 
@@ -133,8 +133,6 @@
 
 
 .card-container{
-  /* margin:5px; */
-  /* margin-top: 20px; */
   height: 60vh;
   overflow: auto;
   text-align:justify;
@@ -362,6 +360,15 @@ background-color: #070417;
 
 /* Media Queries */
 
+@media screen and (min-width: 900px) {
+  .search-container-border{
+    margin-bottom: 10px;
+  }
+  .todo-card{
+    margin-top: 0;
+  }
+
+}
 @media screen and (max-width: 1300px) {
  
   .todo-card{
@@ -388,7 +395,7 @@ background-color: #070417;
   .search-icon{
     position: absolute;
     right: 18%;
-    top: 185px;
+    top: 177px;
     font-size: 30px;
     overflow: hidden;
   }
@@ -411,7 +418,7 @@ background-color: #070417;
   .search-icon{
     position: absolute;
     right: 18%;
-    top: 185px;
+    top: 177px;
     font-size: 30px;
     overflow: hidden;
   }
@@ -448,13 +455,13 @@ background-color: #070417;
 @media screen and (max-width: 700px) {
   .search-icon{
     position: absolute;
-    right: 10%;
-    top: 185px;
+    right: 19%;
+    top: 177px;
     font-size: 30px;
     overflow: hidden;
   }
   .search-bar{
-    width: 100%;
+    width: 70%;
   }
   .search-container-border{
     margin: 0px 38% 10px 38%;
@@ -497,13 +504,13 @@ background-color: #070417;
 @media screen and (max-width: 600px) {
   .search-icon{
     position: absolute;
-    right: 10%;
-    top: 185px;
+    right: 8%;
+    top: 177px;
     font-size: 30px;
     overflow: hidden;
   }
   .search-bar{
-    width: 100%;
+    width: 94%;
   }
   .search-container-border{
     margin: 0px 38% 10px 38%;
@@ -540,7 +547,7 @@ background-color: #070417;
   .search-icon{
     position: absolute;
     right: 10%;
-    top: 185px;
+    top: 177px;
     font-size: 30px;
     overflow: hidden;
   }
@@ -577,7 +584,7 @@ background-color: #070417;
   .search-icon{
     position: absolute;
     right: 10%;
-    top: 185px;
+    top: 177px;
     font-size: 30px;
     overflow: hidden;
   }
