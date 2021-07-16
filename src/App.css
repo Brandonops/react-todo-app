@@ -60,7 +60,7 @@
   font-size: 30px;
   position: relative;
   right: 3%;
-  top: 8px;
+  top: 14px;
   overflow: hidden;
 }
 
@@ -223,6 +223,10 @@ ul li a{
   padding-left: 10px;
   font-size: 17px;
   color: white;
+}
+
+.select-input{
+  width: 40%;
 }
 
 
@@ -422,7 +426,7 @@ background-color: #070417;
     width: 70%;
   }
   .search-container-border{
-    margin: 20px 38% 10px 38%;
+    margin: 10px 38% 10px 38%;
   }
 
   .search-container{
@@ -438,7 +442,7 @@ background-color: #070417;
     left: 80%;
   }
   .search-container-border{
-    margin: 20px 38% 10px 38%;
+    margin: 10px 38% 10px 38%;
   }
 
   .search-container{
@@ -460,7 +464,7 @@ background-color: #070417;
     width: 70%;
   }
   .search-container-border{
-    margin: 20px 38% 10px 38%;
+    margin: 10px 38% 10px 38%;
   }
 
   .search-container{
@@ -482,8 +486,6 @@ background-color: #070417;
     margin-right: 10px;
   }
 
- }
-
   .input-form{
     width: 80%;
   }
@@ -491,6 +493,8 @@ background-color: #070417;
     width: 83%;
     padding: 10px;
   }
+ }
+
 
  
  
@@ -509,7 +513,7 @@ background-color: #070417;
     width: 94%;
   }
   .search-container-border{
-    margin: 20px 38% 10px 38%;
+    margin: 10px 38% 10px 38%;
   }
 
   .search-container{
@@ -551,7 +555,7 @@ background-color: #070417;
     width: 100%;
   }
   .search-container-border{
-    margin: 20px 38% 10px 38%;
+    margin: 10px 38% 10px 38%;
   }
 
   .search-container{
@@ -588,7 +592,7 @@ background-color: #070417;
     width: 100%;
   }
   .search-container-border{
-    margin: 20px 38% 10px 38%;
+    margin: 10px 38% 10px 38%;
   }
 
   .search-container{
@@ -607,7 +611,7 @@ background-color: #070417;
   .search-icon{
     position: absolute;
     right: 10%;
-    top: 185px;
+    top: 180px;
     font-size: 30px;
     overflow: hidden;
   }
@@ -615,7 +619,7 @@ background-color: #070417;
     width: 100%;
   }
   .search-container-border{
-    margin: 20px 38% 10px 38%;
+    margin: 10px 38% 10px 38%;
   }
 
   .search-container{
