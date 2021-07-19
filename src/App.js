@@ -22,8 +22,8 @@ function App() {
       .then((json) =>{
         return dispatch(setTodoData(json));
       });
-  }, [dispatch]);
 
+  },[dispatch]);
 
   return (
     <div className="App">    

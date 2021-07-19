@@ -59,6 +59,7 @@ export default function OpenedTodos(props) {
                                     title: editTodo.editTodo.title,
                                     completed: editTodo.editTodo.completed,
                                 }
+                                console.log(todo)
                                 fetch(`https://jsonplaceholder.typicode.com/todos/${selectedEditTodo}`, {
                                     method: 'PUT',
                                     body: JSON.stringify({
@@ -71,6 +72,7 @@ export default function OpenedTodos(props) {
                                 })
                                     .then((response) => response.json())
                                     .then((json) => {
+                                        console.log(json)
                                         return dispatch(editTodoData(json.todo))
                                     });
                             }

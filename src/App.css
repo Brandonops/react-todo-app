@@ -1,6 +1,7 @@
 .App{
-  background: rgb(7,4,23);
+  background: #070417;
   height: 100vh;
+  font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -11,6 +12,7 @@
 .header-logo{
   color: white;
   margin-top: 30px;
+  font-family: sans-serif;
 }
 
 .logo-container{
@@ -21,7 +23,7 @@
 
 .search-bar{
   background-color: #292639;
-  font-size: 20px;
+  font-size: 16px;
   text-decoration: none;
   padding-left: 15px;
   color: white;
@@ -82,7 +84,7 @@
   min-width: 50px;
   height: 50px;
   border-radius: 100px;
-  margin: 20px 15px 15px 15px;
+  margin: 15px 15px 15px 15px;
 }
 
 
@@ -92,7 +94,7 @@
   min-width: 50px;
   min-height: 50px;
   border-radius: 100px;
-  margin: 20px 15px 15px 15px;
+  margin: 15px 15px 15px 15px;
 }
 
 .checked-symbol-container{
@@ -102,6 +104,7 @@
 .grouped-div{
   display: flex;
   width: 100%;
+  align-items: center;
 }
 
 
@@ -120,9 +123,11 @@
 }
 .todo-title{
   margin: 0px 0px 10px 0px;
+  /* font-weight: bold; */
 }
 .user-name{
   background-color: #3B3753;
+  color: rgb(194, 193, 193);
   border-radius: 5px;
   margin: 0px;
   width: 70px;
@@ -348,7 +353,18 @@ background-color: #070417;
 
 
 
-
+::-webkit-input-placeholder {
+  color: white
+}
+::-moz-placeholder { 
+  color: white;
+}
+:-ms-input-placeholder { 
+  color: white;
+}
+:-moz-placeholder {
+  color: white;
+}
 
 
 
@@ -377,14 +393,19 @@ background-color: #070417;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 3% 15% 3% 15%;
+    margin: 0% 15% 3% 15%;
     border-radius: 10px;
     color: white;
   }
   
 
   .search-container-border{
-    margin: 10px 38% 0px 38%;
+    margin: 10px 38% 10px 38%;
+  }
+
+  .search-container{
+    margin: 20px 25px 0px 15px;
+    padding: 0;
   }
 
 }
@@ -403,11 +424,11 @@ background-color: #070417;
     width: 70%;
   }
   .search-container-border{
-    margin: 10px 38% 0px 38%;
+    margin: 10px 38% 10px 38%;
   }
 
   .search-container{
-    margin: 20px 25px 20px 15px;
+    margin: 20px 25px 0px 15px;
     padding: 0;
   }
 
@@ -433,7 +454,6 @@ background-color: #070417;
     margin: 20px 25px 0px 15px;
     padding: 0;
   }
-
  }
  
 @media screen and (max-width: 800px) {
@@ -535,7 +555,7 @@ background-color: #070417;
     height: 100px;
   }
   .todo-title-user{
-    margin: 5px 0 5px 0;
+    margin: 12px 0 12px 0;
   }
 
 
@@ -665,4 +685,13 @@ background-color: #070417;
   .card-container{
     height: 67vh
   }
+
  }
+ .todo-card:hover{
+   background-color: #3B3753;
+  }
+  .todo-card:hover .grouped-div .checked-symbol-container .checked-symbol,
+  .todo-card:hover .grouped-div .todo-title-user .user-name {
+   background-color: #292639;
+ }
+  
