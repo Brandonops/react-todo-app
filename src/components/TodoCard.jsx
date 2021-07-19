@@ -14,10 +14,7 @@ export default function TodoCard(props) {
                     {props.todo.completed === true ? <IoIosCheckmark className="checked-symbol-filled"></IoIosCheckmark> : <div className="checked-symbol"></div>}
                 </div>
                 <div className="todo-title-user">
-                    {props.todo.title > 15 ?
-                    <p className="todo-title" style={{fontFamily: "sans-serif"}}> This title is too long... </p> :
                     <p className="todo-title" style={{fontFamily: "sans-serif"}}>{props.todo.title}</p> 
-                    }
                     <p className="user-name">User: <span>{props.todo.userId} </span></p>
                 </div>
             </div>
@@ -42,7 +39,6 @@ export default function TodoCard(props) {
                                 completed: true
                             }
                             dispatch(editTodoData(editData))
-                            console.log(editData)
                         }}>Mark Completed</p>
                     </ReactTooltip>
                     <BsThreeDots data-tip data-for="global" data-event="click" className="three-dots-edit edit-button"

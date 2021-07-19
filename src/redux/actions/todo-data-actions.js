@@ -17,7 +17,6 @@ export const addTodoData = (todoData) => {
 };
 
 export const editTodoData = (editTodo) => {
-  console.log(editTodo)
   return {
     type: EDIT_TODO,
     editTodo,

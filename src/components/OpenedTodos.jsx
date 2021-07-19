@@ -58,7 +58,6 @@ export default function OpenedTodos(props) {
                                         title: editTodo.editTodo.title,
                                         completed: editTodo.editTodo.completed,
                                     }
-                                    console.log(todo)
                                     fetch(`https://jsonplaceholder.typicode.com/todos/${selectedEditTodo}`, {
                                         method: 'PUT',
                                         body: JSON.stringify({
