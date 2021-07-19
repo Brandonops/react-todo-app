@@ -3,7 +3,6 @@ import { useDispatch, useSelector } from 'react-redux';
 import TodoCard from './TodoCard';
 import { FiArrowLeft } from 'react-icons/fi';
 import { editTodoData } from '../redux/actions/todo-data-actions';
-import { setRenderAddTodoForm } from '../redux/actions/render-add-to-form-actions';
 import { Slide } from 'react-reveal';
 
 export default function OpenedTodos(props) {
