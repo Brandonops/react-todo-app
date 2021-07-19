@@ -107,6 +107,11 @@ export default function AddTodoForm() {
                     </option>
                 </select>
                 <button className="finish-button" type="submit"
+                onClick={() =>{
+                    setTimeout(() => {
+                        dispatch(setRenderAddTodoForm(false))
+                    }, 500)
+                }}
                 >Finish</button>
                 <button className="quit-button" onClick={() => dispatch(setRenderAddTodoForm((false)))}>Quit</button>
             </form>

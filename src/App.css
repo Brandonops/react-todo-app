@@ -213,8 +213,8 @@ ul li a{
 
 
 .add-form{
-  margin-top: 15px;
-  border-radius: 15px;
+  top: 25px;
+  border-radius: 20px;
 }
 
 
@@ -507,10 +507,10 @@ background-color: #070417;
   }
 
   .input-form{
-    width: 80%;
+    width: 81%;
   }
   .select-input{
-    width: 83%;
+    width: 84%;
     padding: 10px;
   }
  }
