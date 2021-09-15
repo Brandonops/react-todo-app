@@ -1,6 +1,6 @@
 # App made for mobile view Dimensions
 - iPhone X : 375px x 812px
-- mobile compatible deployed : todo-takehome-test.netlify.app
+- mobile compatible deployed : https://codesandbox.io/s/blissful-snyder-wioyj
 
 ## Time Breakdown of Project
 
